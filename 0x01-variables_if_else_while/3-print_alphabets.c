@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar(c);
 		c++;
+		printf("\n");
 	}
 	c = 'A';
 
