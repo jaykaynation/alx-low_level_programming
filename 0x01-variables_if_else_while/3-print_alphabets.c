@@ -12,7 +12,6 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-		printf("\n");
 	}
 	c = 'A';
 
@@ -20,10 +19,9 @@ int main(void)
 	{
 		putchar(c);
 		c++;
-		printf("\n");
 	}
 
-	printf("\n");
+	putchar("\n");
 
 	return (0);
 }
