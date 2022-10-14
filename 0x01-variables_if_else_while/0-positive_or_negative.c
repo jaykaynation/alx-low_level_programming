@@ -3,7 +3,7 @@
 /**
  * main - will print the positive, negative or zero
  * value of $n
- * Return: 0 if exited properly, non-zero otherwise
+ * Return: 0 if successful
  */
 int main(void)
 {
@@ -11,15 +11,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
+	/* your code goes here */
 	if (n < 0)
 	{
-		printf("%d", $n is negative)
+		printf("%d is %s\n", n, "negative")
 	} elseif(n == 0) {
-		printf("%d", $n is zero)
+		printf("%d is %s\n", n, "zero")
 	} else
 	{
-		printf("%d", $n is positive)
+		printf("%d is %s\n", n, "positive")
 	}
 	return (0);
 }
