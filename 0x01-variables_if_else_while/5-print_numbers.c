@@ -10,7 +10,7 @@ int main(void)
 
 	if (i <= 9)
 	{
-		printf(i);
+		printf("%i", i);
 		i++;
 	}
 	printf('\n');
