@@ -10,7 +10,7 @@ int main(void)
 
 	x = 0;
 
-	while (i < 100)
+	while (x < 100)
 	{
 		y = x % 10; /* singles digit */
 		z = x / 10; /* doubles digit */
