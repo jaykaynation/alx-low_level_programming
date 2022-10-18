@@ -5,7 +5,7 @@
  * @y: is the second integer to be summed
  * Return: 0 on success
  */
-int add(x, y)
+int add(int x, int y)
 {
 	x = 1;
 	y = 2;
