@@ -12,9 +12,9 @@ void jack_bauer(void)
 	{
 		for (y = 00; y <= 59; y++)
 		{
-			putchar(x);
-			putchar(':');
-			putchar(y);
+			_putchar(x);
+			_putchar(':');
+			_putchar(y);
 		}
 	}
 
