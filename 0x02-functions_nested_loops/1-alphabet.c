@@ -4,7 +4,7 @@ include "main.h"
  *
  *Return: 0 on success
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int x = 'a';
 	
