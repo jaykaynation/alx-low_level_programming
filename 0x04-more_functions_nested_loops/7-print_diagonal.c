@@ -1,23 +1,23 @@
 #include "main.h"
 /**
- * print_diagonal - print diagonal
+ * print_diagonal - will print a diagonal line
  * @n: diagonal
  * Return: void
  */
 
 void print_diagonal(int n)
 {
-	int i, j;
+	int x, y;
 
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
-	for (i = 0; i < n; i++)
+	for (x = 0; x < n; x++)
 	{
-		for (j = 0; j <= i; j++)
+		for (y = 0; y <= x; y++)
 		{
-			if (i == j)
+			if (x == y)
 			{
 				_putchar('\\');
 				_putchar('\n');

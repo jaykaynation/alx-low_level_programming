@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * print_line - print line
+ * print_line - will print a straight line
  * @n: integer to print
  * Return: void
  */
 
 void print_line(int n)
 {
-	int c = 0;
+	int x = 0;
 
-	while ((c < n) && (n > 0))
+	while ((x < n) && (n > 0))
 	{
 		_putchar('_');
-		c++;
+		x++;
 	}
 	_putchar('\n');
 }
